@@ -6,7 +6,6 @@ $console = $Host.UI.RawUI
 $console.ForegroundColor = $FGColor
 Write-host "`$FGColor: $fgcolor"
 $console.BackgroundColor = $BGColor
-$console.WindowTitle = "PowerShell Console $Env:USERNAME"
  
 #Prepare Environment
 Clear-Host
